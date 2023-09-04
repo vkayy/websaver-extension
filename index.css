@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    min-height: 350px;
+    height: 100%;
+}
+
+#header { 
+    background: #5F9341;
+    color:white;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+
+#header h1, h3 {
+    margin: 0;
+    padding: 15px 15px;
+}
+
+#header h3 {
+    padding-right: 20px;
+}
+
+#header #logo {
+    padding: 2px;
+    margin-right: 3px;
+    background: white;
+    color:#5F9341;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5f9341;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#delete-btn:hover {
+    background-color: #9ec799;
+    color: white;
+}
+
+#input-btn:hover, #tab-btn:hover {
+    background-color: #9ec799;
+    color: white;
+}
+
+
+.border-design {
+    border-radius: 5px;
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+ul {
+    margin: 20px 10px 100px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+a {
+    color: #5f9341;
+}
+
+#footer {
+    position: fixed;
+    margin-top: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.custom-shape-divider-bottom-1693762437 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 0;
+}
+
+.custom-shape-divider-bottom-1693762437 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    margin-top: 0;
+}
+
+.custom-shape-divider-bottom-1693762437 .shape-fill {
+    fill: #5F9341;
+}
